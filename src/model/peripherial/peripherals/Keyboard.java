@@ -1,4 +1,10 @@
 package model.peripherial.peripherals;
 
-public class Keyboard {
+import model.peripherial.Peripherial;
+
+public class Keyboard extends Peripherial {
+
+    public Keyboard(String connectionToComputer, String brand) {
+        super(connectionToComputer, brand);
+    }
 }

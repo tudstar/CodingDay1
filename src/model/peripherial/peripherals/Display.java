@@ -1,4 +1,10 @@
 package model.peripherial.peripherals;
 
-public class Display {
+import model.peripherial.Peripherial;
+
+public class Display
+{
+    public Display(String connectionToComputer, String brand) {
+        super(connectionToComputer, brand);
+    }
 }
